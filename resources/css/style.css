@@ -1,0 +1,164 @@
+html{
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+
+}
+
+/* div{
+  border: 1px solid yellow;
+} */
+
+.main-container{
+ display: flex;
+ align-content: center;
+ flex-direction: column;
+ align-items: center;
+ padding-top: 0;
+ margin-top: 0;
+}
+.top-header{
+  position: fixed;
+  height: 69px;
+  margin-top: 0;
+  padding-top: 0;
+  border-bottom: 1px solid seashell;
+  z-index: 10;
+  display: flex;
+  background-color: black;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+.top-header img{
+  height: 50px;
+  padding-left: 10px;
+  flex-grow: 1;
+}
+
+.top-header a{
+  text-decoration: underline;
+  padding-right: 10px;
+  color: seashell;
+
+}
+
+.mission{
+  background-image: url("../images/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.mission-banner{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 120px;
+  justify-content: center;
+  margin-bottom: 0;
+
+}
+
+#top-line{
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.tea-of-the-month{
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.tile img{
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.tile h3{
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.picture-tiles-box{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+}
+
+.locations{
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+}
+
+.location-box-container{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 1020px;
+  height:300px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.location-box{
+  display: inline-flex;
+  align-content: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+  background-color: black;
+  align-content:space-around;
+  justify-content:space-around;
+  flex-direction: column;
+}
+
+#section-location-header{
+  padding-bottom: 15px;
+  display: block;
+  width: 100%;
+  margin-bottom: 0px;
+  padding-top: 30px;
+}
+
+.location-box h4{
+  font-weight: normal;
+}
+
+.location-box li{
+  margin: auto;
+}
+
+#footer-bottom-line{
+  text-align: left;
+  margin-left: 20px;
+  display: block;
+  width: 1250px;
+}
+
+#first-item{
+  font-weight: bold;
+}
+
+#footer-upper-lines{
+  height: 200px;
+}
